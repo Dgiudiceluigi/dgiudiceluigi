@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #484848;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.museum {
+    max-width: 100%;
+    height: auto;
+}
+
+.first-page {
+    position: relative;
+}
+
+.first-page:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.title {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    font-size: 36px;
+    margin: 0;
+}
+
+.subtitle {
+    padding-top: 5%;
+}
+
+.art-name {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.art-name em {
+    display: block;
+    margin-top: 2px;
+}
+
+.subtitle p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.date {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.date strong {
+    display: block;
+}
+
+.info {
+    margin-top: 70px;
+}
+
+.info strong {
+    display: block;
+}
+
+@media only screen and (min-width: 800px) {
+    .museum {
+        width: 58%;
+        margin: 1%;
+        float: left;
+    }
+    .title {
+        top: 10%;
+        left: 5%;
+        font-size: 35px;
+        margin: 0;
+    }
+    .subtitle {
+        width: 38%;
+        margin: 1%;
+        float: right;
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 1560px) {
+    .museum {
+        width: auto;
+        position: absolute;
+        top: 20%;
+        left: 15%;
+    }
+    .title {
+        position: absolute;
+        top: 30%;
+        left: 26%;
+        font-size: 70px;
+        letter-spacing: 40px;
+    }
+    .subtitle {
+        width: 30%;
+        padding-top: 20%;
+    }
+    .art-name {
+        font-size: 26px;
+    }
+    .art-name em {
+        letter-spacing: 1px;
+    }
+    .subtitle p {
+        font-size: 20px;
+        margin-top: 0px;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+    address {
+        margin-top: 70px;
+        letter-spacing: 0.5px;
+    }
+}
